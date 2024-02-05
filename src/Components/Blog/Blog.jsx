@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-export function Blog({ blog }) {
+import { BsBookmarkCheckFill } from "react-icons/bs";
+export function Blog({ blog, handleAddToBookmark }) {
   const {
     title,
     name,
@@ -11,8 +12,12 @@ export function Blog({ blog }) {
   } = blog;
 
   return (
-    <div>
-      <img src={cover_page} alt={`Cover picture of the title ${title}`} />
+    <div className="mb-20">
+      <img
+        className="w-full mb-8"
+        src={cover_page}
+        alt={`Cover picture of the title ${title}`}
+      />
       <div className="flex justify-between">
         <div className="p-1">
           <img className="w-14 rounded-full" src={author_image} alt="" />
@@ -23,6 +28,12 @@ export function Blog({ blog }) {
         </div>
         <div>
           <span className="text-xl">{reading_time} min read</span>
+          <button
+            onClick={handleAddToBookmark}
+            className="ml-2 p-2 text-red-600"
+          >
+            <BsBookmarkCheckFill />
+          </button>
         </div>
       </div>
       <h2 className="text-2xl">{title}</h2>
