@@ -14,7 +14,7 @@ export function Blog({ blog, handleAddToBookmark }) {
   return (
     <div className="mb-20">
       <img
-        className="w-full mb-8"
+        className="w-30 mb-8"
         src={cover_page}
         alt={`Cover picture of the title ${title}`}
       />
@@ -29,7 +29,7 @@ export function Blog({ blog, handleAddToBookmark }) {
         <div>
           <span className="text-xl">{reading_time} min read</span>
           <button
-            onClick={handleAddToBookmark}
+            onClick={() => handleAddToBookmark(blog)}
             className="ml-2 p-2 text-red-600"
           >
             <BsBookmarkCheckFill />
@@ -50,4 +50,5 @@ export function Blog({ blog, handleAddToBookmark }) {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmark: PropTypes.func,
 };
