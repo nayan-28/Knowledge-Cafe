@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { BsBookmarkCheckFill } from "react-icons/bs";
-export function Blog({ blog, handleAddToBookmark }) {
+export function Blog({ blog, handleAddToBookmark, handleReadingTime }) {
   const {
     title,
     name,
@@ -12,13 +12,13 @@ export function Blog({ blog, handleAddToBookmark }) {
   } = blog;
 
   return (
-    <div className="mb-20">
+    <div className="mb-20 space-y-4">
       <img
         className="w-30 mb-8"
         src={cover_page}
         alt={`Cover picture of the title ${title}`}
       />
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-4 ">
         <div className="p-1">
           <img className="w-14 rounded-full" src={author_image} alt="" />
           <div className="ml-6">
@@ -44,6 +44,12 @@ export function Blog({ blog, handleAddToBookmark }) {
           </span>
         ))}
       </p>
+      <button
+        onClick={() => handleReadingTime(reading_time)}
+        className="text-purple-800 font-bold underline text-xl"
+      >
+        Mark as read
+      </button>
     </div>
   );
 }
@@ -51,4 +57,5 @@ export function Blog({ blog, handleAddToBookmark }) {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleAddToBookmark: PropTypes.func,
+  handleReadingTime: PropTypes.func,
 };
