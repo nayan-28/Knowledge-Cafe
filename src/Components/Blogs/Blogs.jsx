@@ -9,7 +9,9 @@ export default function Blogs() {
   }, []);
   return (
     <div className="md:w-2/3">
-      <h1 className="text-4xl">Blogs:{blogs.length}</h1>
+      <h1 className="text-4xl">
+        Blogs: {blogs.length > 0 ? blogs.length : "Loading..."}
+      </h1>
     </div>
   );
 }

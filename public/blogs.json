@@ -1,48 +1,46 @@
-{
-    "data": [{
-            "id": 12345,
-            "cover_page": "http://example.com/covers/exploring_quantum_universe.jpg",
-            "title": "Exploring the Quantum Universe",
-            "author_image": "http://example.com/authors/jane_doe.jpg",
-            "posted_date": "2024-02-05",
-            "reading_time": 10,
-            "hashtags": ["QuantumPhysics", "ScienceExploration", "TheoreticalPhysics"]
-        },
-        {
-            "id": 67890,
-            "cover_page": "http://example.com/covers/gourmet_delights.jpg",
-            "title": "Gourmet Delights: A Culinary Adventure",
-            "author_image": "http://example.com/authors/john_smith.jpg",
-            "posted_date": "2024-02-06",
-            "reading_time": 15,
-            "hashtags": ["FoodieAdventure", "CulinaryExploration", "Gourmet"]
-        },
-        {
-            "id": 13579,
-            "cover_page": "http://example.com/covers/mastering_digital_art.jpg",
-            "title": "Mastering Digital Art: A Beginner's Guide",
-            "author_image": "http://example.com/authors/emma_artist.jpg",
-            "posted_date": "2024-02-07",
-            "reading_time": 8,
-            "hashtags": ["DigitalArt", "CreativeJourney", "ArtisticExpression"]
-        },
-        {
-            "id": 24680,
-            "cover_page": "http://example.com/covers/fitness_revolution.jpg",
-            "title": "Fitness Revolution: Transform Your Body",
-            "author_image": "http://example.com/authors/mark_fitness.jpg",
-            "posted_date": "2024-02-08",
-            "reading_time": 12,
-            "hashtags": ["FitnessGoals", "HealthyLiving", "WorkoutMotivation"]
-        },
-        {
-            "id": 98765,
-            "cover_page": "http://example.com/covers/fictional_realms.jpg",
-            "title": "Fictional Realms: A Fantasy Adventure",
-            "author_image": "http://example.com/authors/sarah_fantasy.jpg",
-            "posted_date": "2024-02-09",
-            "reading_time": 20,
-            "hashtags": ["FantasyWorlds", "ImaginationUnleashed", "EpicJourney"]
-        }
-    ]
-}
+[{
+        "id": 12345,
+        "cover_page": "http://example.com/covers/exploring_quantum_universe.jpg",
+        "title": "Exploring the Quantum Universe",
+        "author_image": "http://example.com/authors/jane_doe.jpg",
+        "posted_date": "2024-02-05",
+        "reading_time": 10,
+        "hashtags": ["QuantumPhysics", "ScienceExploration", "TheoreticalPhysics"]
+    },
+    {
+        "id": 67890,
+        "cover_page": "http://example.com/covers/gourmet_delights.jpg",
+        "title": "Gourmet Delights: A Culinary Adventure",
+        "author_image": "http://example.com/authors/john_smith.jpg",
+        "posted_date": "2024-02-06",
+        "reading_time": 15,
+        "hashtags": ["FoodieAdventure", "CulinaryExploration", "Gourmet"]
+    },
+    {
+        "id": 13579,
+        "cover_page": "http://example.com/covers/mastering_digital_art.jpg",
+        "title": "Mastering Digital Art: A Beginner's Guide",
+        "author_image": "http://example.com/authors/emma_artist.jpg",
+        "posted_date": "2024-02-07",
+        "reading_time": 8,
+        "hashtags": ["DigitalArt", "CreativeJourney", "ArtisticExpression"]
+    },
+    {
+        "id": 24680,
+        "cover_page": "http://example.com/covers/fitness_revolution.jpg",
+        "title": "Fitness Revolution: Transform Your Body",
+        "author_image": "http://example.com/authors/mark_fitness.jpg",
+        "posted_date": "2024-02-08",
+        "reading_time": 12,
+        "hashtags": ["FitnessGoals", "HealthyLiving", "WorkoutMotivation"]
+    },
+    {
+        "id": 98765,
+        "cover_page": "http://example.com/covers/fictional_realms.jpg",
+        "title": "Fictional Realms: A Fantasy Adventure",
+        "author_image": "http://example.com/authors/sarah_fantasy.jpg",
+        "posted_date": "2024-02-09",
+        "reading_time": 20,
+        "hashtags": ["FantasyWorlds", "ImaginationUnleashed", "EpicJourney"]
+    }
+]
